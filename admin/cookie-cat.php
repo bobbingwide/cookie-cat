@@ -1,4 +1,5 @@
-<?php // (C) Copyright Bobbing Wide 2012, 2013
+<?php // (C) Copyright Bobbing Wide 2012-2015
+
 /**
  * Display a message when cookie-cat is not functional due to the dependencies not being activated or installed
  * Note: We can't use oik APIs here as we don't know if it's activated.

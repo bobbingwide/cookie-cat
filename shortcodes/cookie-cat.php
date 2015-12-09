@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2012-2014 
+<?php // (C) Copyright Bobbing Wide 2012-2015
 
 /**
  * Set the location of the temporary XML file, in the upload directory folder
@@ -363,6 +363,8 @@ function oik_query_plugin_cookies( $plugin, $default_plugin_cookies ) {
  *
  * @return array $plugin_cookies array keyed by the short plugin name pointing to an array of 'simplified' cookie names 
  * The hardcoded cookie-cat-info for these cookies are:
+ * 
+ * `
  * WordPress cookies:
  *                , 'wordpress_logged_in_'  => oik_cookie_info( 2, "session", "WordPress cookie for a logged in user" )
  *                , 'wordpress_test_'       => oik_cookie_info( 2, "session", "WordPress cookie for a logged in user" )
@@ -373,8 +375,9 @@ function oik_query_plugin_cookies( $plugin, $default_plugin_cookies ) {
  * PHP cookies:
  *                , 'PHPSESSID'             => oik_cookie_info( 1, "session" ) 
  *                , 'SESS'                  => oik_cookie_info( 1, "session" )
- 
-
+ * `
+ * 
+ * `
 (
     [title] => Cookie-cat for plugins
     [cc_mapping] => Array
@@ -419,8 +422,7 @@ function oik_query_plugin_cookies( $plugin, $default_plugin_cookies ) {
                 )
 
         )
-
- *
+ * `
  */
 function oik_default_plugin_cookies( $cookie_info_defaults ) {
   $plugin_cookies = array( 'wordpress'        => "wordpress_test_cookie,wordpress_,wp-settings-" 

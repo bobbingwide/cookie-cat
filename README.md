@@ -1,10 +1,10 @@
 # cookie-cat 
 * Contributors: bobbingwide, vsgloik
 * Donate link: http://www.oik-plugins.com/oik/oik-donate/
-* Tags: cookie, categories, catalog, oik, EU cookie directive, UK cookie law, audit
+* Tags: cookie, shortcode, categories, catalog, oik, EU cookie directive, UK cookie law, audit
 * Requires at least: 3.9
-* Tested up to: 4.0
-* Stable tag: 1.3
+* Tested up to: 4.4
+* Stable tag: 1.4.1
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,9 @@ Also have a look at the links on the [cookie-cat](http://www.cookie-cat.co.uk) w
 6. cookie cat Warning that data is passed to the cookie-cat server
 
 ## Upgrade Notice 
+# 1.4.1 
+Tested with WordPress 4.4, including WordPress Multi Site
+
 # 1.4 
 Tested with WordPress 4.0, including WordPress Multi Site
 
@@ -173,6 +176,12 @@ Now loads the XML directly from cookie-cat.co.uk
 Requires oik version 1.13 or higher
 
 ## Changelog 
+# 1.4.1 
+* Changed: Now depends on oik v2.5
+* Tested: With WordPress 4.4
+* Changed: Improved some docblock comments and changed Copyright date on source files
+* Changed: Updated oik-activation logic
+
 # 1.4 
 * Changed: Improved some docblocks.
 * Changed: Now depends on oik v2.2
