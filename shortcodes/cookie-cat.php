@@ -119,7 +119,7 @@ function cookie_cat_rows( $cookies ) {
  */        
 function cookie_cat_row( $cookie, $cookie_info ) {
   bw_trace2();
-  $dur = "&nbsp";
+  $dur = "&nbsp;";
   
   if ( is_array( $cookie_info ) ) {
     extract( $cookie_info );
