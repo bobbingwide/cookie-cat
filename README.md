@@ -4,7 +4,7 @@
 * Tags: cookie, shortcode, categories, catalog, oik, EU cookie directive, UK cookie law, audit
 * Requires at least: 3.9
 * Tested up to: 4.4
-* Stable tag: 1.4.1
+* Stable tag: 1.4.2
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,7 +76,7 @@ And check the syntax of the shortcode.
 # Some of my cookies are "unknown" 
 The list of cookies that this plugin recognises may never be a complete list of all known cookies.
 If your website delivers cookies that are not recognised then the cookie category, description and duration will be shown as "unknown".
-This is not really acceptable as the guidelines state that you're suppposed to explain "how they are used on the websites they visit".
+This is not really acceptable as the guidelines state that you're supposed to explain "how they are used on the websites they visit".
 
 There are several ways to address this problem.
 
@@ -119,19 +119,12 @@ Use oik options > cookie cat and follow the instructions in the Installation sec
 Note that using the Load XML function passes the names of currently active cookies to the cookie-cat server.
 By using the function you authorize cookie-cat to the information that is passed.
 
-
 # What is the source of the XML file's data 
-This comes from a website called [cookie-cat](http://www.cookie-cat.co.uk).
-The XML file delivered with the plugin is generated from the data held in the website.
-Every so often it is regenerated, producing information about the known cookies used by known plugins.
-Whenever the plugin is updated then a new version of this file will be delivered.
+It comes from the [cookie-cat](http://www.cookie-cat.co.uk) website.
 
-# The list of cookies shown is different from cookiecert.com's list 
-The main reason is probably because the XML file doesn't yet have a mapping between a plugin and a group of cookies.
-Try using [cookies browser=Y]; you may get some "unknown" cookies listed. If so, see above.
-
-The cookiecert.com website reports the cookies it comes across when visiting your site.
-The list seems to include cookies that its spider has accessed by following links such as PayPal buttons.
+* Use the cookie cat admin page to load an XML file tailored to your site.
+* The XML file delivered with the plugin was generated from the data held in the cookie-cat website.
+* This XML file is no longer being updated when a new version of the plugin is released
 
 # Can I list the browser cookies? 
 Yes. Use [cookies browser=Y]
@@ -144,7 +137,7 @@ plugins="|plugin1,plugin2 - Optional list of plugin names. Defaults to ALL activ
 temp="N|Y - Use the temporary cc_mapping XML file"]`
 
 # Where can I find out more? 
-If you are in the UK you should see the [ICC UK Cookie Guide](http://www.international-chamber.co.uk/components/com_wordpress/wp/wp-content/uploads/2012/04/icc_uk_cookie_guide.pdf)
+If you are in the UK you should see the [ICC UK Cookie Guide](http://www.cookielaw.org/media/1096/icc_uk_cookiesguide_revnov.pdf)
 
 Also have a look at the links on the [cookie-cat](http://www.cookie-cat.co.uk) website.
 
@@ -157,6 +150,9 @@ Also have a look at the links on the [cookie-cat](http://www.cookie-cat.co.uk) w
 6. cookie cat Warning that data is passed to the cookie-cat server
 
 ## Upgrade Notice 
+# 1.4.2 
+Fixes issue #2 - shortcode displays &nbsp... missing ;
+
 # 1.4.1 
 Tested with WordPress 4.4, including WordPress Multi Site
 
@@ -176,6 +172,11 @@ Now loads the XML directly from cookie-cat.co.uk
 Requires oik version 1.13 or higher
 
 ## Changelog 
+# 1.4.2 
+* Fixed: Issue #2
+* Changes: Merged pull request from jherve - __qca no longer used by Jetpack
+* Changes: Updated FAQ in line with oik-plugins and cookie-cat websites
+
 # 1.4.1 
 * Changed: Now depends on oik v2.5
 * Tested: With WordPress 4.4

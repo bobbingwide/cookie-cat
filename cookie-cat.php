@@ -4,7 +4,7 @@ Plugin Name: cookie-cat
 Depends: oik base plugin
 Plugin URI: http://www.oik-plugins.com/oik-plugins/cookie-cat
 Description: [cookies] shortcode for producing a table of cookies the website uses
-Version: 1.4.1
+Version: 1.4.2
 Author: bobbingwide
 Author URI: http://www.oik-plugins.com/author/bobbingwide
 License: GPLv2 or later

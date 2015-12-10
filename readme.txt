@@ -150,6 +150,9 @@ Also have a look at the links on the [cookie-cat](http://www.cookie-cat.co.uk) w
 6. cookie cat Warning that data is passed to the cookie-cat server
 
 == Upgrade Notice ==
+= 1.4.2 =
+Fixes issue #2 - shortcode displays &nbsp... missing ;
+
 = 1.4.1 =
 Tested with WordPress 4.4, including WordPress Multi Site
 
@@ -169,6 +172,11 @@ Now loads the XML directly from cookie-cat.co.uk
 Requires oik version 1.13 or higher
 
 == Changelog ==
+= 1.4.2 =
+* Fixed: Issue #2  
+* Changes: Merged pull request from jherve - __qca no longer used by Jetpack
+* Changes: Updated FAQ in line with oik-plugins and cookie-cat websites
+
 = 1.4.1 =
 * Changed: Now depends on oik v2.5
 * Tested: With WordPress 4.4
