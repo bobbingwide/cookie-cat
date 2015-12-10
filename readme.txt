@@ -4,7 +4,7 @@ Donate link: http://www.oik-plugins.com/oik/oik-donate/
 Tags: cookie, shortcode, categories, catalog, oik, EU cookie directive, UK cookie law, audit
 Requires at least: 3.9
 Tested up to: 4.4
-Stable tag: 1.4.1
+Stable tag: 1.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -137,7 +137,7 @@ plugins="|plugin1,plugin2 - Optional list of plugin names. Defaults to ALL activ
 temp="N|Y - Use the temporary cc_mapping XML file"]`
 
 = Where can I find out more? = 
-If you are in the UK you should see the [ICC UK Cookie Guide](http://www.international-chamber.co.uk/components/com_wordpress/wp/wp-content/uploads/2012/04/icc_uk_cookie_guide.pdf)
+If you are in the UK you should see the [ICC UK Cookie Guide](http://www.cookielaw.org/media/1096/icc_uk_cookiesguide_revnov.pdf)
 
 Also have a look at the links on the [cookie-cat](http://www.cookie-cat.co.uk) website.
 
