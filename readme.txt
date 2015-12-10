@@ -76,7 +76,7 @@ And check the syntax of the shortcode.
 = Some of my cookies are "unknown" =
 The list of cookies that this plugin recognises may never be a complete list of all known cookies.
 If your website delivers cookies that are not recognised then the cookie category, description and duration will be shown as "unknown".
-This is not really acceptable as the guidelines state that you're suppposed to explain "how they are used on the websites they visit".
+This is not really acceptable as the guidelines state that you're supposed to explain "how they are used on the websites they visit".
 
 There are several ways to address this problem.
 
@@ -119,19 +119,12 @@ Use oik options > cookie cat and follow the instructions in the Installation sec
 Note that using the Load XML function passes the names of currently active cookies to the cookie-cat server.
 By using the function you authorize cookie-cat to the information that is passed.
 
-
 = What is the source of the XML file's data =
-This comes from a website called [cookie-cat](http://www.cookie-cat.co.uk). 
-The XML file delivered with the plugin is generated from the data held in the website.
-Every so often it is regenerated, producing information about the known cookies used by known plugins.
-Whenever the plugin is updated then a new version of this file will be delivered.
+It comes from the [cookie-cat](http://www.cookie-cat.co.uk) website. 
 
-= The list of cookies shown is different from cookiecert.com's list =
-The main reason is probably because the XML file doesn't yet have a mapping between a plugin and a group of cookies.
-Try using [cookies browser=Y]; you may get some "unknown" cookies listed. If so, see above.
-
-The cookiecert.com website reports the cookies it comes across when visiting your site. 
-The list seems to include cookies that its spider has accessed by following links such as PayPal buttons.
+* Use the cookie cat admin page to load an XML file tailored to your site.
+* The XML file delivered with the plugin was generated from the data held in the cookie-cat website.
+* This XML file is no longer being updated when a new version of the plugin is released
 
 = Can I list the browser cookies? =
 Yes. Use [cookies browser=Y]
