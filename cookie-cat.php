@@ -10,7 +10,7 @@ Author URI: http://www.oik-plugins.com/author/bobbingwide
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-    Copyright 2012-2015 Bobbing Wide (email : herb@bobbingwide.com )
+    Copyright 2012-2016 Bobbing Wide (email : herb@bobbingwide.com )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2,
@@ -27,6 +27,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     http://www.gnu.org/licenses/gpl-2.0.html
 
 */
+
+cookie_cat_loaded();
 
 /**
  * Implement "oik_loaded" action for cookie-cat
@@ -96,10 +98,9 @@ function oik_cookie_filter( $cookie_list ) {
 function cookie_cat_loaded() {
   add_action( "oik_loaded", "cookie_cat_init" );
   add_action( "oik_add_shortcodes", "cookie_cat_oik_add_shortcodes" );
-  add_action( "admin_notices", "cookie_cat_activation" );
+  add_action( "admin_notices", "cookie_cat_activation", 12 );
 }
 
-cookie_cat_loaded();
 
 
 
