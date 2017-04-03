@@ -1,10 +1,10 @@
 === cookie-cat ===
 Contributors: bobbingwide, vsgloik
-Donate link: http://www.oik-plugins.com/oik/oik-donate/
-Tags: cookie, shortcode, categories, catalog, oik, EU cookie directive, UK cookie law, audit
+Donate link: https://www.oik-plugins.com/oik/oik-donate/
+Tags: cookie, shortcode, oik, EU cookie directive, UK cookie law
 Requires at least: 3.9
-Tested up to: 4.4
-Stable tag: 1.4.2
+Tested up to: 4.7.3
+Stable tag: 1.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,11 +25,15 @@ By default the list is dynamically generated taking into account the active plug
 This plugin *does not* implement anything to help you obtain the user's consent to place a cookie on their device.
 There are other plugins to help you do that. 
 
-Use in conjunction with [oik-privacy-policy](http://wordpress.org/plugins/oik-privacy-policy/)
+Use in conjunction with [oik-privacy-policy](https://wordpress.org/plugins/oik-privacy-policy/)
 
-http://youtu.be/8i-sm6TS28M
+https://youtu.be/8i-sm6TS28M
 
-== Installation ==
+
+== Frequently Asked Questions ==
+
+= Installation =
+
 1. Upload the contents of the cookie-cat plugin to the `/wp-content/plugins/cookie-cat' directory
 1. Activate the cookie-cat plugin through the 'Plugins' menu in WordPress
 1. Visit oik options > cookie cat page and perform the following steps
@@ -39,10 +43,8 @@ http://youtu.be/8i-sm6TS28M
 1. Edit your Privacy policy page to include the [cookies] shortcode
 
 Note: cookie-cat is dependent upon the oik plugin. You can activate it but it will not work unless oik is also activated.
-Download oik from 
-[oik download](http://wordpress.org/extend/plugins/oik/)
+Download oik from [oik download](https://wordpress.org/plugins/oik/)
 
-== Frequently Asked Questions ==
 = What is the EU cookie law? =
 Also known as the EU e-Privacy Directive the "UK Privacy and Electronic Communications Regulation" becomes effective in the UK on 26th May 2012.
 That's the date when the Information Commissioner's Office (ICO) is due to begin enforcing the new rules.
@@ -90,7 +92,7 @@ There are several ways to address this problem.
 
 = How do I add a caveat? =
 First you need a Privacy policy page. 
-If you have used the [oik-privacy-policy](http://www.wordpress.org/extend/plugins/oik-privacy-policy) plugin to help generate your Privacy policy page then you can write the caveat in the section that starts *"A list of all the cookies used in this website by category is set out below".*
+If you have used the [oik-privacy-policy](https://wordpress.org/plugins/oik-privacy-policy) plugin to help generate your Privacy policy page then you can write the caveat in the section that starts *"A list of all the cookies used in this website by category is set out below".*
 
 = How do I remove the items from the table =
 
@@ -137,7 +139,7 @@ plugins="|plugin1,plugin2 - Optional list of plugin names. Defaults to ALL activ
 temp="N|Y - Use the temporary cc_mapping XML file"]`
 
 = Where can I find out more? = 
-If you are in the UK you should see the [ICC UK Cookie Guide](http://www.cookielaw.org/media/1096/icc_uk_cookiesguide_revnov.pdf)
+If you are in the UK you should see the [ICC UK Cookie Guide](https://www.cookielaw.org/media/1096/icc_uk_cookiesguide_revnov.pdf)
 
 Also have a look at the links on the [cookie-cat](http://www.cookie-cat.co.uk) website.
 
@@ -150,6 +152,9 @@ Also have a look at the links on the [cookie-cat](http://www.cookie-cat.co.uk) w
 6. cookie cat Warning that data is passed to the cookie-cat server
 
 == Upgrade Notice ==
+= 1.4.3 = 
+Tested with WordPress 4.7.3. Tested with PHP 7.1. Now depends on oik v3.1.
+
 = 1.4.2 =
 Fixes issue #2 - shortcode displays &nbsp... missing ;
 
@@ -172,6 +177,12 @@ Now loads the XML directly from cookie-cat.co.uk
 Requires oik version 1.13 or higher
 
 == Changelog ==
+= 1.4.3 =
+* Changed: Priority for 'admin_notices' hook 
+* Changed: Now depends on oik v3.1
+* Tested: With PHP 7.1 
+* Tested: With WordPress 4.7.3 and WordPress Multisite
+
 = 1.4.2 =
 * Fixed: Issue #2  
 * Changes: Merged pull request from jherve - __qca no longer used by Jetpack
