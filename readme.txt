@@ -3,7 +3,7 @@ Contributors: bobbingwide, vsgloik
 Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: cookie, shortcode, oik, EU cookie directive, UK cookie law
 Requires at least: 3.9
-Tested up to: 4.7.3
+Tested up to: 4.8
 Stable tag: 1.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -153,7 +153,7 @@ Also have a look at the links on the [cookie-cat](http://www.cookie-cat.co.uk) w
 
 == Upgrade Notice ==
 = 1.4.3 = 
-Tested with WordPress 4.7.3. Tested with PHP 7.1. Now depends on oik v3.1.
+Tested with WordPress 4.8. Tested with PHP 7.1. Now depends on oik v3.1.
 
 = 1.4.2 =
 Fixes issue #2 - shortcode displays &nbsp... missing ;
@@ -181,7 +181,7 @@ Requires oik version 1.13 or higher
 * Changed: Priority for 'admin_notices' hook 
 * Changed: Now depends on oik v3.1
 * Tested: With PHP 7.1 
-* Tested: With WordPress 4.7.3 and WordPress Multisite
+* Tested: With WordPress 4.8 and WordPress Multisite
 
 = 1.4.2 =
 * Fixed: Issue #2  
