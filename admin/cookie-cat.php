@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2012-2015
+<?php // (C) Copyright Bobbing Wide 2012-2017
 
 /**
  * Display a message when cookie-cat is not functional due to the dependencies not being activated or installed
@@ -241,7 +241,7 @@ function cookie_cat_catalog() {
   $redisplay = "<input type=\"submit\" name=\"_cookie_cat_catalog\" value=\"Redisplay\" class=\"button-secondary\"/>";
   e( $redisplay );
   etag( "form" );
-  oik_require( "includes/oik-sc-help.inc" );
+  oik_require( "includes/oik-sc-help.php" );
   bw_invoke_shortcode( "cookies", $kvs , "Cookie catalog" );
 }
 
