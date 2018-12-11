@@ -4,13 +4,13 @@ Plugin Name: cookie-cat
 Depends: oik base plugin
 Plugin URI: https://www.oik-plugins.com/oik-plugins/cookie-cat
 Description: [cookies] shortcode for producing a table of cookies the website uses
-Version: 1.4.3
+Version: 1.4.4
 Author: bobbingwide
 Author URI: https://www.oik-plugins.com/author/bobbingwide
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-    Copyright 2012-2017 Bobbing Wide (email : herb@bobbingwide.com )
+    Copyright 2012-2018 Bobbing Wide (email : herb@bobbingwide.com )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2,
@@ -49,13 +49,16 @@ function cookie_cat_oik_add_shortcodes() {
 }
 
 /*
- * Implement "admin_notices" action for cookie-cat 
+ * Implements "admin_notices" action for cookie-cat
  *  
- * Check plugin dependencies
- * This code will produce a message when cookie-cat is activated but oik isn't 
- * Now dependent upon oik v2.1
- * 2015 Now dependent upon oik v2.5
- * 2017 Now dependent upon oik v3.1
+ * Checks plugin dependencies. This code will produce a message when cookie-cat is activated but oik isn't
+ *
+ * Version | Depends on
+ * ------- | -------
+ * 1.4     | oik v2.1
+ * 1.4.1   | oik v2.5
+ * 1.4.3   |  oik v3.1
+ * 1.4.4   | oik v3.2.8
 */
 function cookie_cat_activation() {
   static $plugin_basename = null;
@@ -67,9 +70,9 @@ function cookie_cat_activation() {
     }  
   }  
   if ( is_multisite() ) { 
-    $depends = "oik:3.1"; 
+    $depends = "oik:3.2.8";
   } else {
-    $depends = "oik:3.1";
+    $depends = "oik:3.2.8";
   }     
   oik_plugin_lazy_activation( __FILE__, $depends, "oik_plugin_plugin_inactive" );
 }

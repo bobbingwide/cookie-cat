@@ -2,9 +2,9 @@
 Contributors: bobbingwide, vsgloik
 Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: cookie, shortcode, oik, EU cookie directive, UK cookie law
-Requires at least: 3.9
-Tested up to: 4.8
-Stable tag: 1.4.3
+Requires at least: 4.9.8
+Tested up to: 5.0
+Stable tag: 1.4.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -152,6 +152,9 @@ Also have a look at the links on the [cookie-cat](http://www.cookie-cat.co.uk) w
 6. cookie cat Warning that data is passed to the cookie-cat server
 
 == Upgrade Notice ==
+= 1.4.4 =
+Tested with Gutenberg / WordPress 5.0. Now depends on oik v3.2.8
+
 = 1.4.3 = 
 Tested with WordPress 4.8. Tested with PHP 7.1. Now depends on oik v3.1.
 
@@ -177,6 +180,13 @@ Now loads the XML directly from cookie-cat.co.uk
 Requires oik version 1.13 or higher
 
 == Changelog ==
+= 1.4.4 =
+* Changed: Depends on oik v3.2.8, [github bobbingwide cookie-cat issues 3]
+* Changed: Uses https to Load the XML file from cookie-cat.co.uk
+* Changed: Uses https for link to cookie-cat.co.uk design
+* Tested: With WordPress 5.0
+* Tested: With Gutenberg 4.6.1
+
 = 1.4.3 =
 * Changed: Priority for 'admin_notices' hook 
 * Changed: Now depends on oik v3.1

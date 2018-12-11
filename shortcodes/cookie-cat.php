@@ -34,7 +34,7 @@ function cookie_cat_default_saved_xml() {
  * Note: the first plugin is "wordpress"
  */
 function cookie_cat_default_url() {
-  return( "http://www.cookie-cat.co.uk/feed/cc_mapping?plugins=" );
+  return( "https://www.cookie-cat.co.uk/feed/cc_mapping?plugins=" );
 }
 
 
@@ -144,13 +144,13 @@ function cookie_cat_row( $cookie, $cookie_info ) {
 }  
 
 /**
- * Display the table of cookies 
+ * Displays the table of cookies
+ *
  * @param array $cookies - array of cookies
- * 
  */ 
 function cookie_cat_table( $cookies ) { 
   bw_trace2();
-  oik_require( "bobbforms.inc" ); 
+  oik_require_lib( "bobbforms" );
   stag( "table", "cookies wide-fat" );
   stag( "thead" );
   bw_tablerow( array( "Cookie Name", "Cookie Category", "Description", "Duration" ) );

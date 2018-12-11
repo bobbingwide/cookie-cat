@@ -246,14 +246,14 @@ function cookie_cat_catalog() {
 }
 
 /**
- * Produce message telling user that information will be passed to another server
+ * Produces a message telling the user that information will be passed to another server
  */
 function cookie_cat_warning_message() {
   p( "When you select the <b>Load XML</b> function, information from your website is passed to the cookie-cat server." );
   p( "This includes the names of cookies which are currently set in your browser. Only the cookie names are passed, not the content." );
   p( "This information may be used to help identify the mapping of cookies to plugins." );
   p( "If you do not want this information to be passed then please don't use the function." );
-  alink( null, "http://cookie-cat.co.uk/cookie-cat-design-part-ia-cookie-cat-v1-1/", "Read about the cookie-cat design" );
+  alink( null, "https://cookie-cat.co.uk/cookie-cat-design-part-ia-cookie-cat-v1-1/", "Read about the cookie-cat design" );
 }  
 
 /**
