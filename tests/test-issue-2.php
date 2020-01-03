@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2017
+<?php // (C) Copyright Bobbing Wide 2017-2020
 
 
 class Tests_issue_2 extends BW_UnitTestCase {
@@ -11,7 +11,7 @@ class Tests_issue_2 extends BW_UnitTestCase {
 	 * - We depend on BW_UnitTestCase to implement the tag_break method, but this is not tested
 	 * - We load the [cookies] shortcode functions
 	 */
-	function setUp() {
+	function setUp(): void {
 		parent::setUp();
 		oik_require( "shortcodes/cookie-cat.php", "cookie-cat" );
 	}

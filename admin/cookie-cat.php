@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2012-2017
+<?php // (C) Copyright Bobbing Wide 2012-2018
 
 /**
  * Display a message when cookie-cat is not functional due to the dependencies not being activated or installed

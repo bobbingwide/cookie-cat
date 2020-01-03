@@ -4,10 +4,11 @@
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: cookie, shortcode, oik, EU cookie directive, UK cookie law
 * Requires at least: 4.9.8
-* Tested up to: 5.0
-* Stable tag: 1.4.4
+* Tested up to: 5.3.2
+* Stable tag: 1.4.5
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Gutenberg compatible: Yes
 
 Assist compliance with UK cookie law/EU cookie directive by listing the cookies your website uses using the [cookies] shortcode. depends on oik.
 
@@ -123,7 +124,7 @@ Note that using the Load XML function passes the names of currently active cooki
 By using the function you authorize cookie-cat to the information that is passed.
 
 # What is the source of the XML file's data 
-It comes from the [cookie-cat](http://www.cookie-cat.co.uk) website.
+It comes from the [cookie-cat](https://www.cookie-cat.co.uk) website.
 
 * Use the cookie cat admin page to load an XML file tailored to your site.
 * The XML file delivered with the plugin was generated from the data held in the cookie-cat website.
@@ -142,7 +143,7 @@ temp="N|Y - Use the temporary cc_mapping XML file"]`
 # Where can I find out more? 
 If you are in the UK you should see the [ICC UK Cookie Guide](https://www.cookielaw.org/media/1096/icc_uk_cookiesguide_revnov.pdf)
 
-Also have a look at the links on the [cookie-cat](http://www.cookie-cat.co.uk) website.
+Also have a look at the links on the [cookie-cat](https://www.cookie-cat.co.uk) website.
 
 ## Screenshots 
 1. cookie-cat options section
@@ -153,6 +154,9 @@ Also have a look at the links on the [cookie-cat](http://www.cookie-cat.co.uk) w
 6. cookie cat Warning that data is passed to the cookie-cat server
 
 ## Upgrade Notice 
+# 1.4.5 
+Tested with PHPUnit 8, WordPress 5.3.2 and WordPress Multi Site, PHP 7.3 and PHP 7.4
+
 # 1.4.4 
 Tested with Gutenberg / WordPress 5.0. Now depends on oik v3.2.8
 
@@ -181,6 +185,12 @@ Now loads the XML directly from cookie-cat.co.uk
 Requires oik version 1.13 or higher
 
 ## Changelog 
+# 1.4.5 
+* Changed: Update for PHPUnit 8,https://github.com/bobbingwide/cookie-cat/issues/4
+* Tested: With WordPress 5.3.2 and WordPress Multi Site
+* Tested: With PHP 7.3 and PHP 7.4
+* Tested: With PHPUnit 8
+
 # 1.4.4 
 * Changed: Depends on oik v3.2.8, https://github.com/bobbingwide/cookie-cat/issues/3
 * Changed: Uses https to Load the XML file from cookie-cat.co.uk
@@ -235,7 +245,7 @@ Requires oik version 1.13 or higher
 
 ## Further reading 
 If you want to read more about the oik plugins then please visit the
-[oik plugin](http://www.oik-plugins.com/oik)
+[oik plugin](https://www.oik-plugins.com/oik)
 **"the oik plugin - for often included key-information"**
 
 

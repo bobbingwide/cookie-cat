@@ -4,13 +4,13 @@ Plugin Name: cookie-cat
 Depends: oik base plugin
 Plugin URI: https://www.oik-plugins.com/oik-plugins/cookie-cat
 Description: [cookies] shortcode for producing a table of cookies the website uses
-Version: 1.4.4
+Version: 1.4.5
 Author: bobbingwide
-Author URI: https://www.oik-plugins.com/author/bobbingwide
+Author URI: https://bobbingwide.com/about-bobbing-wide
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-    Copyright 2012-2018 Bobbing Wide (email : herb@bobbingwide.com )
+    Copyright 2012-2020 Bobbing Wide (email : herb@bobbingwide.com )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2,
