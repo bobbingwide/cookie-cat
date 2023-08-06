@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.107990">
-    <testsuite name="cookie-cat" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.107990">
-      <testsuite name="Tests_issue_2" file="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\tests\test-issue-2.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.107990">
-        <testcase name="test_semicolon_after_nbsp" class="Tests_issue_2" classname="Tests_issue_2" file="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\tests\test-issue-2.php" line="23" assertions="1" time="0.100053"/>
-        <testcase name="test_cookie_cat_row_with_cookie_info" class="Tests_issue_2" classname="Tests_issue_2" file="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\tests\test-issue-2.php" line="41" assertions="1" time="0.007938"/>
+  <testsuite name="" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.314513">
+    <testsuite name="cookie-cat" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.314513">
+      <testsuite name="Tests_issue_2" file="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\tests\test-issue-2.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.314513">
+        <testcase name="test_semicolon_after_nbsp" class="Tests_issue_2" classname="Tests_issue_2" file="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\tests\test-issue-2.php" line="23" assertions="1" time="0.292625"/>
+        <testcase name="test_cookie_cat_row_with_cookie_info" class="Tests_issue_2" classname="Tests_issue_2" file="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\tests\test-issue-2.php" line="41" assertions="1" time="0.021888"/>
       </testsuite>
     </testsuite>
   </testsuite>
