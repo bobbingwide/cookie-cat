@@ -1,4 +1,4 @@
-<?php // (C) Copyright Bobbing Wide 2012-2015
+<?php // (C) Copyright Bobbing Wide 2012-2015, 2023
 
 /**
  * Set the location of the temporary XML file, in the upload directory folder
@@ -268,7 +268,7 @@ function cookie_cat_info( $cookie_cat=2, $cookie_duration=null, $cookie_cb=null 
  * @return string $simple_name - the "base" cookie name
  */
 function cookie_cat_simplify( $cookie_name, $preg_cookies="wordpress_logged_in" ) {
-  $simple_name = preg_replace( "/(${preg_cookies})(.*)/", "$1", $cookie_name );
+  $simple_name = preg_replace( "/({$preg_cookies})(.*)/", "$1", $cookie_name );
   bw_trace2( $simple_name );
   return( $simple_name );
 }
