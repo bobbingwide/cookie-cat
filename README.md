@@ -4,7 +4,7 @@
 * Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: cookie, shortcode, oik, EU cookie directive, UK cookie law
 * Requires at least: 4.9.8
-* Tested up to: 6.3.1
+* Tested up to: 6.4.1
 * Stable tag: 1.4.6
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -190,7 +190,7 @@ Requires oik version 1.13 or higher
 ## Changelog 
 # 1.4.6 
 * Fixed: PHP 8.2: fix deprecated ${var} in strings #5
-* Tested: With WordPress 6.3.1 and WordPress Multisite
+* Tested: With WordPress 6.4.1 and WordPress Multisite
 * Tested: With PHPUnit 9.6
 * Tested: With PHP 8.2
 
