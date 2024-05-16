@@ -39,6 +39,7 @@ cookie_cat_loaded();
 function cookie_cat_init() {
   add_filter( "cookies", "oik_cookie_filter", 11, 2 );
   add_action( "oik_admin_menu", "cookie_cat_admin_menu" );
+  add_action( "oik_add_shortcodes", "cookie_cat_oik_add_shortcodes" );
 }
 
 /**
@@ -101,6 +102,6 @@ function oik_cookie_filter( $cookie_list ) {
  */
 function cookie_cat_loaded() {
   add_action( "oik_loaded", "cookie_cat_init" );
-  add_action( "oik_add_shortcodes", "cookie_cat_oik_add_shortcodes" );
+
   add_action( "admin_notices", "cookie_cat_activation", 12 );
 }
