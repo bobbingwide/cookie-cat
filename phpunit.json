@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\phpunit.xml.dist" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.091823">
-    <testsuite name="cookie-cat" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.091823">
-      <testsuite name="Tests_issue_2" file="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\tests\Tests_issue_2.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.091823">
-        <testcase name="test_semicolon_after_nbsp" file="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\tests\Tests_issue_2.php" line="23" class="Tests_issue_2" classname="Tests_issue_2" assertions="1" time="0.076426"/>
-        <testcase name="test_cookie_cat_row_with_cookie_info" file="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\tests\Tests_issue_2.php" line="41" class="Tests_issue_2" classname="Tests_issue_2" assertions="1" time="0.015398"/>
+  <testsuite name="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\phpunit.xml.dist" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.102202">
+    <testsuite name="cookie-cat" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.102202">
+      <testsuite name="Tests_issue_2" file="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\tests\Tests_issue_2.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.102202">
+        <testcase name="test_semicolon_after_nbsp" file="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\tests\Tests_issue_2.php" line="23" class="Tests_issue_2" classname="Tests_issue_2" assertions="1" time="0.084170"/>
+        <testcase name="test_cookie_cat_row_with_cookie_info" file="C:\apache\htdocs\wordpress\wp-content\plugins\cookie-cat\tests\Tests_issue_2.php" line="41" class="Tests_issue_2" classname="Tests_issue_2" assertions="1" time="0.018032"/>
       </testsuite>
     </testsuite>
   </testsuite>

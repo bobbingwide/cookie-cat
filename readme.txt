@@ -3,8 +3,8 @@ Contributors: bobbingwide, vsgloik
 Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: cookie, shortcode, oik, EU cookie directive, UK cookie law
 Requires at least: 4.9.8
-Tested up to: 6.7
-Stable tag: 1.4.7
+Tested up to: 6.8.1
+Stable tag: 1.4.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Gutenberg compatible: Yes
@@ -153,15 +153,15 @@ Also have a look at the links on the [cookie-cat](https://www.cookie-cat.co.uk) 
 6. cookie cat Warning that data is passed to the cookie-cat server
 
 == Upgrade Notice ==
-= 1.4.7 =
-Now supports PHP 8.3. Implements "Required Plugins: oik"
+= 1.4.8 =
+Now supports PHP 8.4. Tested with WordPress 6.8.1
 
 == Changelog ==
-= 1.4.7 =
-* Fixed: Only respond to oik_add_shortcodes after oik_loaded #6
-* Tested: With WordPress 6.5.3 and WordPress Multisite
-* Tested: With PHPUnit 9.6
-* Tested: With PHP 8.3
+= 1.4.8 =
+* Changed: Support PHPUnit 10 & 11 #8
+* Tested: With WordPress 6.8.1 and WordPress Multisite
+* Tested: With PHPUnit 9.6, 10 & 11
+* Tested: With PHP 8.3 and PHP 8.4
 
 == Further reading ==
 If you want to read more about the oik plugins then please visit the

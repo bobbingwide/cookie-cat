@@ -1,4 +1,7 @@
 == Upgrade Notice ==
+= 1.4.7 =
+Now supports PHP 8.3. Implements "Required Plugins: oik"
+
 = 1.4.6 =
 Now supports PHP 8.1 and PHP 8.2 
 
@@ -33,6 +36,12 @@ Now loads the XML directly from cookie-cat.co.uk
 Requires oik version 1.13 or higher
 
 == Changelog ==
+= 1.4.7 =
+* Fixed: Only respond to oik_add_shortcodes after oik_loaded #6
+* Tested: With WordPress 6.5.3 and WordPress Multisite
+* Tested: With PHPUnit 9.6
+* Tested: With PHP 8.3
+
 = 1.4.6 =
 * Fixed: PHP 8.2: fix deprecated ${var} in strings #5
 * Tested: With WordPress 6.4.1 and WordPress Multisite
